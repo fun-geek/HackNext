@@ -262,18 +262,18 @@ export default function Home() {
           <div className="mt-16">
             <h3 className="text-center text-xl font-medium">Platinum Sponsors</h3>
             <div className="mt-8 grid grid-cols-2 gap-8 md:grid-cols-4 stagger-children">
-              {[1, 2, 3, 4].map((i) => (
-                <div key={i} className="flex items-center justify-center rounded-lg border bg-card p-6 hover-scale hover-glow animate-fade-in-up">
-                  <div className="h-12 w-32 bg-muted/30"></div>
+              {["platinum-1.svg","platinum-2.svg","platinum-3.svg","platinum-1.svg"].map((file, idx) => (
+                <div key={idx} className="flex items-center justify-center rounded-lg border bg-card p-6 hover-scale hover-glow animate-fade-in-up">
+                  <img src={`/sponsors/${file}`} alt={`Platinum sponsor ${idx + 1}`} className="max-h-12 w-auto object-contain" />
                 </div>
               ))}
             </div>
             
             <h3 className="mt-16 text-center text-xl font-medium">Gold Sponsors</h3>
             <div className="mt-8 grid grid-cols-2 gap-6 md:grid-cols-6 stagger-children">
-              {[1, 2, 3, 4, 5, 6].map((i) => (
-                <div key={i} className="flex items-center justify-center rounded-lg border bg-card p-4 hover-scale hover-glow animate-fade-in-up">
-                  <div className="h-8 w-24 bg-muted/30"></div>
+              {["gold-1.svg","gold-2.svg","gold-3.svg","gold-4.svg","gold-1.svg","gold-2.svg"].map((file, idx) => (
+                <div key={idx} className="flex items-center justify-center rounded-lg border bg-card p-4 hover-scale hover-glow animate-fade-in-up">
+                  <img src={`/sponsors/${file}`} alt={`Gold sponsor ${idx + 1}`} className="max-h-8 w-auto object-contain" />
                 </div>
               ))}
             </div>
