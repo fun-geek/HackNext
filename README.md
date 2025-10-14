@@ -2,7 +2,7 @@
 
 HackNext is a modern, responsive, and accessible hackathon landing site built with Next.js and Tailwind CSS. It showcases event information, schedule, prizes, sponsors, registration, and more — with interactive UI elements and small animations to make the experience engaging for participants and sponsors.
 
-This repository contains the source code for the official HackNext website and the UI improvements made on the `responsive-fixes` branch.
+This repository contains the source code for the official HackNext website and the UI improvements made on the `master` branch.
 
 ## Key Features
 
