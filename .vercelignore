@@ -1,0 +1,12 @@
+# Ignore the nested CRA demo folder so Vercel detects the Next.js app at the repository root
+hacknext/
+
+# Node build artifacts
+node_modules/
+.next/
+
+# Local config
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
